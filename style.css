@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--Off-Black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    /* Primary */
+    --green: hsl(75, 94%, 57%);
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+.main {
+    width: 320px;
+    height: 500px;
+    color: #eee;
+    background: var(--Dark-Grey);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.imge {
+    margin: 30px;
+    width: 65px;
+    height: 65px;
+}
+
+.info {
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.address {
+    color: var(--green);
+    font-size: 12px;
+}
+
+.par {
+    color: var(--white);
+    font-size: 11px;
+    margin: 20px 0;
+}
+
+.links {
+    /* background-color: #aaa; */
+    width: 80%;
+    height: max-content;
+
+}
+
+.links div {
+    background-color: var(--Grey);
+    margin-bottom: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.links div:hover {
+    background-color: var(--green);
+    color: var(--Grey);
+    font-weight: 600;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
